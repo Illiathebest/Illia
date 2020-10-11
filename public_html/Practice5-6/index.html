@@ -8,21 +8,16 @@
     <title>My CV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="cv">
         <section>
-            <h1>Illia Kukhta</h1>
-            <h2>Game developer</h2>
-
-            <div class="theme-switch-wrapper">
-                <label class="theme-switch">
-          <input type="checkbox" class="theme-switch__checkbox"/>
-          <div class="slider round"></div>
-        </label>
-                <span class="theme-switch__label">Dark Mode</span>
-            </div>
+            <img id="avatar" src="img/photo_2020-10-11_19-48-51.jpg" width="106" height="160" alt="">
+            <h1 id="trigger">Illia Kukhta</h1>
+            <h2>Game Developer</h2>
 
             <div class="contacts">
                 <div class="contact">
@@ -30,7 +25,7 @@
                         Github
                     </div>
                     <div class="contact__value">
-                        <a href="https://github.com/Illiathebest">github.com/Illiathebest</a>
+                        <a href="https://github.com/Illiathebest/">github.com/Illiathebest</a>
                     </div>
                 </div>
                 <div class="contact">
@@ -38,12 +33,13 @@
                         Email
                     </div>
                     <div class="contact__value">
-                        <a href="mailto:kukhaillya@gmail.com">kukhaillya@gmail.com</a>
+                        <a id="emailAddress" href="mailto:kukhaillya@gmail.com">kukhaillya@gmail.com</a>
                     </div>
                 </div>
             </div>
             <div class="description">
-                I am a student who is studying game development on the engine Unreal Engine 4. Among my qualities I can mention independence, initiative, responsibility, ability to work in a team
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum atque, accusamus ipsam est optio corporis! Provident assumenda ipsum harum excepturi sapiente quas accusamus earum eius odio consequatur quae ad, impedit ratione fugiat aut sequi et deserunt
+                iusto magnam natus, quod molestiae corrupti porro laborum? Reprehenderit, doloremque eos?
             </div>
         </section>
 
@@ -54,11 +50,11 @@
                 <div class="experience__date">09.2019 - present</div>
                 <div class="experience__description">
                     <div class="experience__name">Taras Shevchenko national university in Kyiv</div>
-                    <div class="experience__company">Higher educational institution</div>
+                    <div class="experience__company">High educational institute</div>
                     <div class="experience__details">
                         <ul>
-                            <li>Faculty of Information Technology </li>
-                            <li>Specialization: Network and Internet technologies</li>
+                            <li>Faculty of informational technologies</li>
+                            <li>Specialization: network and Internet technologies</li>
                         </ul>
                     </div>
                 </div>
@@ -70,14 +66,14 @@
 
                 <div class="experience__description">
                     <div class="experience__name">C ++ Development Basics</div>
-                    <div class="experience__company">Course on Coursera</div>
+                    <div class="experience__company">Coursera. Educational platform</div>
                     <div class="experience__details">
                         <ul>
+                            <li>Computer Programming</li>
+                            <li>Algorithms</li>
+                            <li>Object-Oriented Programming (OOP)</li>
                             <li>Software Testing</li>
                             <li>Unit Testing</li>
-                            <li>Algorithms</li>
-                            <li>Computer Programming</li>
-                            <li>Object-Oriented Programming (OOP)</li>
                         </ul>
                     </div>
                 </div>
@@ -87,12 +83,18 @@
         <section>
             <h3>Skills</h3>
             <div>
-                C/C++, C# .NET Core 3, Python 3, HTML/CSS, Javascript, Adobe Photoshop/Illustrator, MS Office, Soft Skills
+                <ul>
+                    <li>C/C++</li>
+                    <li>C# .NET Core 3</li>
+                    <li>Frontend (HTML, CSS, Javascript)</li>
+                    <li>Python</li>
+                    <li>MS Office</li>
+                    <li>Soft Skills</li>
+                </ul>
             </div>
         </section>
     </div>
-
-    <script src='js/script.js'></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

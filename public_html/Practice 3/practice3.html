@@ -1,60 +1,97 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>CV</title>
-  <link href="practice3.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="conteiner">
-    <div class="header">
-      <div class="photo">
-        <img src="//picshare.ru/uploads/160416/QMmsB89BlY_preview.jpg" />
-      </div>
-      <div class="author">
-        <div class="info_box">
-          <h2>Вентворт Миллер</h2>
-          <p>
-            <span>Ожидаемая должность: Актер</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="skills">
-      <h3>Обо мне</h3>
-      <hr>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At velit fuga debitis necessitatibus optio ab nostrum sit neque similique, laboriosam doloremque culpa aliquid. Beatae illum in, quasi iste inventore. At.
-      </p>
-      <h3>Образование</h3>
-      <hr>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At velit fuga debitis necessitatibus optio ab nostrum sit neque similique, laboriosam doloremque culpa aliquid. Beatae illum in, quasi iste inventore. At.
-      </p>
-      <h3>Опыт работы</h3>
-      <hr>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At velit fuga debitis necessitatibus optio ab nostrum sit neque similique, laboriosam doloremque culpa aliquid. Beatae illum in, quasi iste inventore. At.
-      </p>
-      <h3>Интересы</h3>
-      <hr>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At velit fuga debitis necessitatibus optio ab nostrum sit neque similique, laboriosam doloremque culpa aliquid. Beatae illum in, quasi iste inventore. At.
-      </p>
-      <h3>Контакты</h3>
-      <hr>
-      <ul class="contacts">
-        <li>
-          <img src="//img/userpic.png" /><a href="mailto:contact@inbox.com">contact@inbox.com</a>
-        </li>
-        <li>
-          <img src="//img/userpic.png" /><a href="tel:+1234567890">+1234567890</a>
-        </li>
-      </ul>
+    <div class="cv">
+        <section>
+            <img src="img/photo_2020-10-11_19-48-51.jpg" width="106" height="160" alt="">
+            <h1>Illia Kukhta</h1>
+            <h2>Game Developer</h2>
 
-    </div>
+            <div class="contacts">
+                <div class="contact">
+                    <div class="contact__type">
+                        Github
+                    </div>
+                    <div class="contact__value">
+                        <a href="https://github.com/Illiathebest/">github.com/Illiathebest</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact__type">
+                        Email
+                    </div>
+                    <div class="contact__value">
+                        <a href="mailto:kukhaillya@gmail.com">kukhaillya@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                I am a student who is studying game development on the engine Unreal Engine 4. 
+                Among my qualities I can mention independence, initiative, responsibility, ability to work in a team.
+            </div>
+        </section>
 
-  </div>
+        <section>
+            <h3>Education</h3>
+
+            <div class="experience">
+                <div class="experience__date">09.2019 - present</div>
+                <div class="experience__description">
+                    <div class="experience__name">Taras Shevchenko national university in Kyiv</div>
+                    <div class="experience__company">High educational institute</div>
+                    <div class="experience__details">
+                        <ul>
+                            <li>Faculty of informational technologies</li>
+                            <li>Specialization: network and Internet technologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience__date">
+                    04.2020 - 06.2020
+                </div>
+
+                <div class="experience__description">
+                    <div class="experience__name">C ++ Development Basics</div>
+                    <div class="experience__company">Coursera. Educational platform</div>
+                    <div class="experience__details">
+                        <ul>
+                            <li>Computer Programming</li>
+                            <li>Algorithms</li>
+                            <li>Object-Oriented Programming (OOP)</li>
+                            <li>Software Testing</li>
+                            <li>Unit Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <div>
+                <ul>
+                    <li>C/C++</li>
+                    <li>C# .NET Core 3</li>
+                    <li>Frontend (HTML, CSS, Javascript)</li>
+                    <li>Python</li>
+                    <li>MS Office</li>
+                    <li>Soft Skills</li>
+                </ul>
+            </div>
+        </section>
+    </div>
 </body>
+
+</html>
